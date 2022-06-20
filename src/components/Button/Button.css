@@ -1,0 +1,22 @@
+.button {
+    padding: 15px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border: 1px solid #FF685B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_white {
+    background-color: #FFFFFF;
+    color: #FF685B;
+}
+
+.button_orange {
+    background-color: #FF685B;
+    color: #FFFFFF;
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app__main {
+  padding: 80px 197px;
+}
+
+@media (max-width: 768px) {
+  .app__main {
+    padding: 37px 10px 62px;
+  }
+}

@@ -1,0 +1,39 @@
+.main {
+    padding: 16.5px 0;
+}
+
+.main__title {
+    margin-bottom: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.main__controls {
+    display: flex;
+    list-style-type: none;
+}
+
+.main__controls li:first-child {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 18.5px 0;
+    }
+
+    .main__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 39px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+}
